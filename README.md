@@ -1,7 +1,7 @@
 # long term rice
 
-    - This is my long term yasb + komorebi rice. For now this repo is just a dump of all config files, but I will update it soon with in depth instructions on the setup.
-    - Most of these configs should work with little to no hassle as long as all dependencies are installed and the .config folder is placed directly into your home directory. Anything that doesn't work most likely needs any instance of the username "shane" replaced with the name of your home directory. 
+- This is my long term yasb + komorebi rice. For now this repo is just a dump of all config files, but I will update it soon with in depth instructions on the setup.
+- Most of these configs should work with little to no hassle as long as all dependencies are installed and the .config folder is placed directly into your home directory. Anything that doesn't work most likely needs any instance of the username "shane" replaced with the name of your home directory. 
 
 ## Programs Used
 - <a href="https://github.com/amnweb/yasb">YASB Reborn</a>
