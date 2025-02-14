@@ -1,0 +1,249 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.29/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.yaml",
+  "minimum_window_width": 0,
+  "minimum_window_height": 0,
+  "resize_delta": 50,
+  "window_container_behaviour": "Create",
+  "cross_monitor_move_behaviour": "Insert",
+  "cross_boundary_behaviour": "Monitor",
+  "unmanaged_window_operation_behaviour": "NoOp",
+  "mouse_follows_focus": false,
+  "border_width": 5,
+  "border_offset": 0,
+  "border": false,
+  "border_colours": {
+    "single": "#89b4fa", //#89b4fa
+    "stack": "#a6e3a1",
+    "monocle": "#f38ba8",
+    "unfocused": "#10151D"
+  },
+  "border_style": "Rounded",
+  "border_z_order": "Bottom",
+  "transparency": false,
+  "transparency_alpha": 200,
+  "default_workspace_padding": 1,
+  "default_container_padding": 0,
+  "animation": {
+    "enabled": true,
+    "style": {
+      "movement": "EaseInOutExpo",
+      "transparency": "Linear"
+    },
+    "duration": {
+      "movement": 400,
+      "transparency": 250
+    },
+    "fps": 144
+  },
+  "floating_applications": [
+    {
+      "kind": "Exe",
+      "id": "explorer.exe",
+      "matching_strategy": "Equals"
+    }
+  ],
+  "ignore_rules": [
+    {
+      "kind": "Title",
+      "id": "Settings",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "Microsoft Store",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "ApplicationFrameHost.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Class",
+      "id": "MozillaDialogClass",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "yasb.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Notepad.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "python3.12.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "LogiAiPromptBuilder.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Riot Client.exe",
+      "matching_strategy": "Equals",
+    },
+    {
+      "kind": "Exe",
+      "id": "RiotClientServices.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "VALORANT.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "osu!.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "METAPHOR.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "LeagueClient.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "BloonsTD6.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "GGST.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "GGST-Win64-Shipping.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Hades2.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "StreetFighter6.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "vibranceGUI.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Deceive.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Class",
+      "id": "BootstrapUpdateUIClass",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "FortniteClient-Win64-Shipping.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Battle.net.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "bg3.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id" : "U.GG.exe",
+      "matching_strategy": "Equals"
+    }
+  ],
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "一",
+          "layout": "BSP"
+        },
+        {
+          "name": "二",
+          "layout": "BSP"
+        },
+        {
+          "name": "三",
+          "layout": "BSP"
+        },
+        {
+          "name": "四",
+          "layout": "BSP"
+        },
+        {
+          "name": "五",
+          "layout": "BSP"
+        },
+        {
+          "name": "六",
+          "layout": "BSP"
+        },
+        {
+          "name": "七",
+          "layout": "BSP"
+        }
+      ],
+      "window_based_work_area_offset_limit": 1
+    },
+    {
+      "workspaces": [
+        {
+          "name": "一",
+          "layout": "BSP"
+        },
+        {
+          "name": "二",
+          "layout": "BSP"
+        },
+        {
+          "name": "三",
+          "layout": "BSP"
+        },
+        {
+          "name": "四",
+          "layout": "BSP"
+        },
+        {
+          "name": "五",
+          "layout": "BSP"
+        },
+        {
+          "name": "六",
+          "layout": "BSP"
+        },
+        {
+          "name": "七",
+          "layout": "BSP"
+        }
+      ],
+      "window_based_work_area_offset_limit": 1
+    }
+  ],
+  "window_hiding_behaviour": "Cloak",
+  "monitor_index_preferences": {},
+  "display_index_preferences": {}
+}

@@ -1,0 +1,9 @@
+backend = "full"
+color_space = "lab"
+palette = "harddark"
+threshold = 15
+pywal = true
+[templates]
+yasb.template = "yasbcolors.json"
+yasb.target = '~\.config\wallust\cache\yasbcolors.json'
+yasb.pywal = true

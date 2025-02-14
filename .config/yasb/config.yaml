@@ -283,5 +283,5 @@ widgets:
         image_corner_radius: 20
         enable_cache: true
       run_after: # List of functions to run after wallpaper is updated
-        - "wal -s -t -e -q -n -i {image} --backend  schemer2" # Example command to run after wallpaper is updated
+        - "wallust run {image} -d C:\\Users\\shane\\.config\\wallust" # Example command to run after wallpaper is updated
         - "pwsh.exe -f C:\\Users\\shane\\yasb.ps1"

@@ -1,6 +1,6 @@
 Import-Module C:\Users\shane\winwal\winwal.psm1
 
-$colorsPath = "$HOME\.cache\wal\yasbcolors.json"
+$colorsPath = "$HOME\.config\wallust\cache\yasbcolors.json"
 $colors = Get-Content -Raw -Path $colorsPath | ConvertFrom-Json
 $variablesSection = @"
 :root{

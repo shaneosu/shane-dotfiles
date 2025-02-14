@@ -1,76 +1,25 @@
 :root{
-    --backgroundcol: #0a0708;
-    --foregroundcol: #c1c1c1;
-    --foregroundtranscol: rgba(193,193,193,0.05);
-    --backgroundtranscol: rgba(10,7,8,0.7);
-    --cursorcol: #c1c1c1;
-    --colors0: #0a0708;
-    --colors1: #71818e;
-    --colors2: #b68111;
-    --colors3: #a2846c;
-    --colors4: #8e8b83;
-    --colors5: #b99452;
-    --colors6: #dbab55;
-    --colors7: #c1c1c1;
-    --colors8: #67545e;
-    --colors9: #71818e;
-    --colors10: #b68111;
-    --colors11: #a2846c;
-    --colors12: #8e8b83;
-    --colors13: #b99452;
-    --colors14: #dbab55;
-    --colors15: #c1c1c1;
-}
-*{
-	font-size: 12px;
-	color: var(--cursorcol);
-	font-weight: 600;
-	font-family: "JetBrainsMono NFP";
-	margin: 0;
-	padding: 0;
-}
-.yasb-bar {
-	padding: 0;
-	margin: 0; 
-    background-color: var(--backgroundtranscol);
-    border-radius: 0px;
-}
-.widget {
-	padding: 0 12px;
-	margin: 0;
-}
-.icon {
-	font-size: 16px;
-    padding-right: 4px;
-    padding-left: 4px;
-    margin-left: 0px;
-}
-.widget .label {
-	padding: 0px 2px; 
-}
-
-.a:root{
-    --backgroundcol: #0a0708;
-    --foregroundcol: #c1c1c1;
-    --foregroundtranscol: rgba(193,193,193,0.05);
-    --backgroundtranscol: rgba(10,7,8,0.7);
-    --cursorcol: #c1c1c1;
-    --colors0: #0a0708;
-    --colors1: #71818e;
-    --colors2: #b68111;
-    --colors3: #a2846c;
-    --colors4: #8e8b83;
-    --colors5: #b99452;
-    --colors6: #dbab55;
-    --colors7: #c1c1c1;
-    --colors8: #67545e;
-    --colors9: #71818e;
-    --colors10: #b68111;
-    --colors11: #a2846c;
-    --colors12: #8e8b83;
-    --colors13: #b99452;
-    --colors14: #dbab55;
-    --colors15: #c1c1c1;
+    --backgroundcol: #03050B;
+    --foregroundcol: #A9ABB1;
+    --foregroundtranscol: rgba(169,171,177,0.05);
+    --backgroundtranscol: rgba(3,5,11,0.7);
+    --cursorcol: #A9ABB1;
+    --colors0: #3F3F46;
+    --colors1: #090F1F;
+    --colors2: #AE2C2C;
+    --colors3: #8D5A95;
+    --colors4: #54868D;
+    --colors5: #EBA88B;
+    --colors6: #BBBAE6;
+    --colors7: #7C7F87;
+    --colors8: #56595E;
+    --colors9: #090F1F;
+    --colors10: #AE2C2C;
+    --colors11: #8D5A95;
+    --colors12: #54868D;
+    --colors13: #EBA88B;
+    --colors14: #BBBAE6;
+    --colors15: #7C7F87;
 }
 *{
 	font-size: 12px;
@@ -128,7 +77,7 @@
 }
 .komorebi-workspaces .ws-btn {
     border: none;
-    background-color:var(--colors1);
+    background-color:var(--colors7);
 	margin:0;
     font-size: 12px;
 	color:  transparent;
@@ -140,13 +89,13 @@
     margin-right: 4px;
 }
 .komorebi-workspaces .ws-btn:hover {
-    background-color: var(--colors5);
+    background-color: var(--cursorcol);
 }
 .komorebi-workspaces .ws-btn.populated {
-    background-color: var(--colors2);
+    background-color: var(--colors12);
 }
 .komorebi-workspaces .ws-btn.active {
-    background-color: var(--colors5);
+    background-color: var(--colors6);
     width: 36px;
     height: 10px;
     border-radius: 5px;
@@ -157,13 +106,13 @@
 .apps-widget .label {
 	font-size: 14px;
 	padding: 0 2px;
-    color: var(--colors1);
+    color: var(--colors7);
 }
 .apps-widget .label:hover {
-	color: var(--cursorcol);
+	color: var(--colors5);
 }
 .volume-widget .icon {
-    color: var(--colors6);
+    color: var(--colors7);
     padding: 0 4px 0 0px;
     font-size: 14px;
 }
@@ -174,7 +123,7 @@
 .weather-widget .icon {
 	font-size: 18px;
 	margin: 0 2px 1px 0;
-    color: var(--colors9);
+    color: var(--colors6);
 }
 .taskbar-widget{
     padding: 0;
@@ -197,7 +146,7 @@
 }
 .wallpapers-widget .icon {
     font-size: 14px;
-    color: var(--colors9)
+    color: var(--colors14)
 }
 .wallpapers-gallery-window {
     background-color: transparent;
@@ -205,7 +154,7 @@
     margin: 0;
 }
 .wallpapers-gallery-buttons {
-    background-color: var(--colors1);
+    background-color: var(--colors6);
     color:var(--backgroundcol);
     border: none;
     font-size: 14px;
@@ -225,10 +174,10 @@
  
 }
 .wallpapers-gallery-image:hover {
-    border: 4px solid var(--colors9);
+    border: 4px solid var(--colors2);
 }
 .wallpapers-gallery-image.focused {
-    border: 4px solid var(--colors9);
+    border: 4px solid var(--colors2);
 }
 .volume-widget .icon {
     padding-right: 3px;
@@ -239,7 +188,7 @@
     margin-left: -6px;
 }
 .clock-widget .icon {
-    color: var(--colors5);
+    color: var(--colors6);
     padding-right: 6px;
     padding-left: 0px;
 }
@@ -271,7 +220,7 @@
     font-weight: 700;
 }
 .weather-card-day {
-    border: 1px solid #45475a;
+    border: 1px solid var(--colors6);
     border-radius: 8px;
     background-color:  var(--backgroundtranscol);
 }
@@ -279,7 +228,7 @@
     font-size: 12px;
 }
 .media-widget .label {
-    color: var(--colors10);
+    color: var(--colors7);
 }
 .volume-slider {
     border: none;
