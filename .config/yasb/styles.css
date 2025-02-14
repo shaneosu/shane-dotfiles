@@ -1,0 +1,303 @@
+:root{
+    --backgroundcol: #0a0708;
+    --foregroundcol: #c1c1c1;
+    --foregroundtranscol: rgba(193,193,193,0.05);
+    --backgroundtranscol: rgba(10,7,8,0.7);
+    --cursorcol: #c1c1c1;
+    --colors0: #0a0708;
+    --colors1: #71818e;
+    --colors2: #b68111;
+    --colors3: #a2846c;
+    --colors4: #8e8b83;
+    --colors5: #b99452;
+    --colors6: #dbab55;
+    --colors7: #c1c1c1;
+    --colors8: #67545e;
+    --colors9: #71818e;
+    --colors10: #b68111;
+    --colors11: #a2846c;
+    --colors12: #8e8b83;
+    --colors13: #b99452;
+    --colors14: #dbab55;
+    --colors15: #c1c1c1;
+}
+*{
+	font-size: 12px;
+	color: var(--cursorcol);
+	font-weight: 600;
+	font-family: "JetBrainsMono NFP";
+	margin: 0;
+	padding: 0;
+}
+.yasb-bar {
+	padding: 0;
+	margin: 0; 
+    background-color: var(--backgroundtranscol);
+    border-radius: 0px;
+}
+.widget {
+	padding: 0 12px;
+	margin: 0;
+}
+.icon {
+	font-size: 16px;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-left: 0px;
+}
+.widget .label {
+	padding: 0px 2px; 
+}
+
+.a:root{
+    --backgroundcol: #0a0708;
+    --foregroundcol: #c1c1c1;
+    --foregroundtranscol: rgba(193,193,193,0.05);
+    --backgroundtranscol: rgba(10,7,8,0.7);
+    --cursorcol: #c1c1c1;
+    --colors0: #0a0708;
+    --colors1: #71818e;
+    --colors2: #b68111;
+    --colors3: #a2846c;
+    --colors4: #8e8b83;
+    --colors5: #b99452;
+    --colors6: #dbab55;
+    --colors7: #c1c1c1;
+    --colors8: #67545e;
+    --colors9: #71818e;
+    --colors10: #b68111;
+    --colors11: #a2846c;
+    --colors12: #8e8b83;
+    --colors13: #b99452;
+    --colors14: #dbab55;
+    --colors15: #c1c1c1;
+}
+*{
+	font-size: 12px;
+	color: var(--cursorcol);
+	font-weight: 600;
+	font-family: "JetBrainsMono NFP";
+	margin: 0;
+	padding: 0;
+}
+.yasb-bar {
+	padding: 0;
+	margin: 0; 
+    background-color: var(--backgroundtranscol);
+    border-radius: 0px;
+}
+.widget {
+	padding: 0 12px;
+	margin: 0;
+}
+.icon {
+	font-size: 16px;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-left: 0px;
+}
+.widget .label {
+	padding: 0px 2px; 
+}
+
+.apps-widget {
+	padding: 0 4px 0 2px;
+}
+.apps-widget .widget-container,
+.komorebi-workspaces .widget-container{
+	background-color: var(--foregroundtranscol);
+	margin: 4px 0 4px 0;
+	border-radius: 6px;
+    border: none;
+}
+.komorebi-workspaces .widget-container {
+    border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+    margin-left: 4px;
+}
+.komorebi-workspaces {
+	border-top-right-radius: 14px;
+	border-bottom-right-radius: 14px;
+	padding: 0 4px 0 0;
+}
+.komorebi-workspaces .offline-status {
+    color: var(--colors1);
+    font-size: 12px;
+    padding: 0 0 0 4px;
+    font-weight:600;
+}
+.komorebi-workspaces .ws-btn {
+    border: none;
+    background-color:var(--colors1);
+	margin:0;
+    font-size: 12px;
+	color:  transparent;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.komorebi-workspaces .ws-btn:hover {
+    background-color: var(--colors5);
+}
+.komorebi-workspaces .ws-btn.populated {
+    background-color: var(--colors2);
+}
+.komorebi-workspaces .ws-btn.active {
+    background-color: var(--colors5);
+    width: 36px;
+    height: 10px;
+    border-radius: 5px;
+}
+.komorebi-workspaces .ws-btn.active:hover {
+    background-color: var(--cursorcol);
+}
+.apps-widget .label {
+	font-size: 14px;
+	padding: 0 2px;
+    color: var(--colors1);
+}
+.apps-widget .label:hover {
+	color: var(--cursorcol);
+}
+.volume-widget .icon {
+    color: var(--colors6);
+    padding: 0 4px 0 0px;
+    font-size: 14px;
+}
+.weather-widget,
+.volume-widget {
+    padding:0 6px;
+}
+.weather-widget .icon {
+	font-size: 18px;
+	margin: 0 2px 1px 0;
+    color: var(--colors9);
+}
+.taskbar-widget{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.taskbar-widget .app-icon{
+    padding:0 6px;
+    border: none;
+    margin: 0;
+}
+.whkd-widget {
+    padding: 0 6px 0 6px;
+}
+.whkd-widget .icon {
+    font-size: 14px;
+}
+.wallpapers-widget {
+    padding: 0 6px 0 6px;
+}
+.wallpapers-widget .icon {
+    font-size: 14px;
+    color: var(--colors9)
+}
+.wallpapers-gallery-window {
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+}
+.wallpapers-gallery-buttons {
+    background-color: var(--colors1);
+    color:var(--backgroundcol);
+    border: none;
+    font-size: 14px;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin:0 8px 8px 8px;
+    width: 600px;
+    font-family: "JetBrainsMono NFP";
+}
+.wallpapers-gallery-buttons:hover {
+    background-color:var(--colors2);
+    color: var(--backgroundcol);
+}
+.wallpapers-gallery-image {
+    border: 4px solid transparent;
+    border-radius: 10px;
+ 
+}
+.wallpapers-gallery-image:hover {
+    border: 4px solid var(--colors9);
+}
+.wallpapers-gallery-image.focused {
+    border: 4px solid var(--colors9);
+}
+.volume-widget .icon {
+    padding-right: 3px;
+    padding-left: 0px;
+    font-size: 12px;
+    max-width: 20px;
+    min-width: 22px;
+    margin-left: -6px;
+}
+.clock-widget .icon {
+    color: var(--colors5);
+    padding-right: 6px;
+    padding-left: 0px;
+}
+.media-widget .btn {
+    max-width: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.media-widget .btn.play:hover {
+    color: var(--colors9);
+}
+.komorebi-workspaces .ws-btn {
+    font-family: "Noto Sans JP";
+}
+.media-widget {
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    padding-left: 6px;
+}
+.weather-card {
+    background-color: var(--backgroundtranscol);
+}
+.weather-card-today .label {
+    font-size: 12px;
+}
+.weather-card-today .label.location {
+    font-size: 24px;
+    font-weight: 700;
+}
+.weather-card-day {
+    border: 1px solid #45475a;
+    border-radius: 8px;
+    background-color:  var(--backgroundtranscol);
+}
+.weather-card-day .label {
+    font-size: 12px;
+}
+.media-widget .label {
+    color: var(--colors10);
+}
+.volume-slider {
+    border: none;
+}
+.audio-menu {
+    background-color:rgba(13, 6, 10, 0.3); 
+}
+.audio-container .device {
+    background-color:transparent;
+    border: none;
+    padding:6px 8px 6px 4px;
+    margin: 2px 0;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.audio-container .device.selected {
+    background-color: rgba(255, 255, 255, 0.085);
+}
+.audio-container .device:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+}
